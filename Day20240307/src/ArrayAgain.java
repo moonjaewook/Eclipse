@@ -15,7 +15,7 @@ public class ArrayAgain {
 			
 			//System.out.println("이름/국어/영어/수학 순으로 입력하세요.");
 			//name[i] = sc.next(); //이름 선입력
-			nameInput(scoName,name,sc,i); //잘 이해를 못함 ㅠ
+			//nameInput(scoName,name,sc,i); //잘 이해를 못함 ㅠ
 			
 			for (int j = 0; j < 3; j++) { //i는 고정한채로 j를 순차적으로 입력 (국,영,수)
 
@@ -35,12 +35,14 @@ public class ArrayAgain {
 		}
 	}
 	
-	public static void nameInput(String[] scoName, String[] name, Scanner sc, int i) {
-		System.out.println(scoName[0]+"input: ");
-		name[i] = sc.next();
-	}
-	
-	public static void scoreInput(String[] scoName, )
+//	public static void nameInput(String[] scoName, String[] name, Scanner sc, int i) {
+//		System.out.println(scoName[0]+"input: ");
+//		name[i] = sc.next();
+//	}
+//	
+//	public static void scoreInput(String[] scoName, ) {
+//		
+//	}
 	
 
 }
